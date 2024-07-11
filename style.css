@@ -1,0 +1,242 @@
+@media (max-width : 1260px)
+
+
+#Navbar {
+    border: 10px double black;
+    background-color: lightblue;
+    /* border: 2px solid black;     */
+}
+
+#Navbar {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+#Navbar {
+    position: relative;
+    top: 0px;
+    font-family: 'Noto Serif Display', serif;
+}
+
+/* #Navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100% ;
+    width: 100%;
+    z-index: -1;
+    opacity: 50px;
+} */
+
+#Navbar ul {
+    display: flex;
+    padding: 10px;
+}
+
+#Navbar ul li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+#Navbar ul li a {
+    color: black;
+    display: block;
+    font-size: 14px;
+    padding: 0px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#Navbar ul li a:hover {
+    color: black;
+    background-color: orangered;
+}
+
+.Container1 {
+    justify-content: center;
+    display: flex;
+}
+
+#New1 {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+#h1 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    padding: 0px;
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+#h2 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: xx-large;
+    padding: 0px 100px;
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+#h3 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: x-large;
+    padding: 0px 100px;
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+#h4 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: xx-large;
+    padding: 0px 100px;
+    margin: 10px;
+    width: 1000px;
+    text-align: center;
+}
+
+/* .Container {
+    position: relative;
+    text-align: center;
+    color: white;
+} */
+
+.Centered {
+    font-family: 'Merienda', cursive;
+    font-size: larger;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#TextSlider{
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#Text1{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    color: teal;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#Text2{
+    font-family: 'El Messiri', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+}
+
+.Left {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: xx-large;
+    position: absolute;
+    top: 227%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.Left1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    position: absolute;
+    top: 305%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.Container5{
+    display: flex;
+}
+
+.Left2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 350%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.Left3{
+        /* font-family: 'Lora', serif; */
+        font-size: larger;
+        font-weight: bolder;
+        position: absolute;
+        top: 475%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+}
+
+.Right1{
+    /* font-family: 'Lora', serif; */
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    top: 475%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+#Copyright{
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#Map{
+    border: 3px dotted black;
+}
+
+.Speakers{
+    border-radius: 50%  ;
+    display: flex;
+}
+
+#Speaker1{
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#Speaker2{
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#Speaker3{
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#Speaker4{
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#KS1{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
